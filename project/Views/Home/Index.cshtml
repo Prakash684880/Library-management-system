@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Library";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body style="background-color: #778899; ">
+    <div class="row" style="background-color: #e6f9ff; border:1px solid;">
+        <div class="col-lg-7">
+            <div align="center">
+                <div class="jumbotron" style="background-color: #e6f9ff; padding-right:20px;">
+                    <h1 style="font-weight: 600; color: darkgreen; ">Library Management System </h1>
+                    <p class="lead">Get yourself Register & borrow Books.</p>
+                    <p><a href="@Url.Action("Create", "Customer")" class="btn btn-danger btn-lg">Register &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+       >
+    </div>
+
+    <!-- Student Information Table -->
+    <div class="row">
+        <div class="col-md-12">
+            <h2 style="font-weight: 600; color: #001a09; ">Student Information</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Full Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Additional Content -->
+    <!-- ... (any additional content you have) ... -->
+
+</body>
+</html>
